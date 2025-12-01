@@ -16,7 +16,10 @@ import java.util.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://sopa-letras-front.vercel.app/"
+})
 @RestController
 public class GameController {
 
